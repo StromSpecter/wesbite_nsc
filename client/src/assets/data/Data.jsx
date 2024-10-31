@@ -123,6 +123,6 @@ export const faqItems = [
   {
     id: 4,
     question: " What akastar have?",
-    answer: "Have Starlink",
+    answer: "Have Sattellite internet.",
   },
 ];

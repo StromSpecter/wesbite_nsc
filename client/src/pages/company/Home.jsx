@@ -2,6 +2,7 @@ import { RiArrowDropDownFill } from "react-icons/ri";
 import { faqItems, productItems } from "../../assets/data/Data";
 import { useHomeHooks } from "../../hooks/company/Home";
 import bgpeta from "../../assets/Digital Slide Mobile Background.png";
+import leogeo from "../../assets/Leo Geosat.webp";
 import { bannerItems } from "../../assets/data/Data"; // Assuming bannerItems is in the same folder
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -141,7 +142,7 @@ const Home = () => {
             className="w-full h-full bg-center bg-no-repeat bg-contain"
             data-aos="fade-up"
             style={{
-              backgroundImage: `url('https://nsc.higo.id/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fleo-geosat.16dc566b.png&w=1200&q=75')`,
+              backgroundImage: `url(${leogeo})`,
             }}
           ></div>
         </div>

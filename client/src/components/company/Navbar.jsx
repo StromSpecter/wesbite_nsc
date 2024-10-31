@@ -18,7 +18,9 @@ const Navbar = () => {
               className="object-cover w-full h-full"
             />
           </div>
-          <p className="text-xl font-bold text-[#02254F]">Nusantara Star Connect</p>
+          <p className="text-xl font-bold text-[#02254F]">
+            Nusantara Star Connect
+          </p>
         </a>
 
         {/* Desktop Menu */}

@@ -41,32 +41,53 @@ const Footer = () => {
 
         {/* Quick Links Section */}
         <div className="flex flex-col">
-          <h4 className="pb-2 mb-4 text-xl font-bold text-orange-500 border-b-2 w-fit">Quick Links</h4>
+          <h4 className="pb-2 mb-4 text-xl font-bold text-orange-500 border-b-2 w-fit">
+            Quick Links
+          </h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="transition-colors hover:text-orange-300">Home</a>
+              <a href="#" className="transition-colors hover:text-orange-300">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#" className="transition-colors hover:text-orange-300">About</a>
+              <a href="#" className="transition-colors hover:text-orange-300">
+                About
+              </a>
             </li>
             <li>
-              <a href="#" className="transition-colors hover:text-orange-300">Product</a>
+              <a href="#" className="transition-colors hover:text-orange-300">
+                Product
+              </a>
             </li>
             <li>
-              <a href="#" className="transition-colors hover:text-orange-300">Career</a>
+              <a href="#" className="transition-colors hover:text-orange-300">
+                Career
+              </a>
             </li>
             <li>
-              <a href="#" className="transition-colors hover:text-orange-300">News</a>
+              <a href="#" className="transition-colors hover:text-orange-300">
+                News
+              </a>
             </li>
             <li>
-              <a href="#" className="transition-colors hover:text-orange-300">Contact</a>
+              <a href="#" className="transition-colors hover:text-orange-300">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="/personal-data-protection" className="transition-colors hover:text-orange-300">
+              Personal Data Protection / Privacy Policy
+              </a>
             </li>
           </ul>
         </div>
 
         {/* Newsletter Section */}
         <div className="flex flex-col">
-          <h4 className="pb-2 mb-4 text-xl font-bold text-orange-500 border-b-2 w-fit">Subscribe to our Newsletter</h4>
+          <h4 className="pb-2 mb-4 text-xl font-bold text-orange-500 border-b-2 w-fit">
+            Subscribe to our Newsletter
+          </h4>
           <p className="mb-4 text-sm">Get the latest updates and offers.</p>
           <div className="flex flex-row">
             <input
