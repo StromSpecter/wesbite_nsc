@@ -1,5 +1,7 @@
 import { RiInstagramFill, RiFacebookFill, RiTwitterFill } from "react-icons/ri";
 import logoNsc from "../../assets/NSC_logo_1.svg";
+import kominfo from "../../assets/kominfo.png";
+import apjii from "../../assets/apjii.png";
 
 const Footer = () => {
   return (
@@ -76,8 +78,11 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/personal-data-protection" className="transition-colors hover:text-orange-300">
-              Personal Data Protection / Privacy Policy
+              <a
+                href="/personal-data-protection"
+                className="transition-colors hover:text-orange-300"
+              >
+                Personal Data Protection / Privacy Policy
               </a>
             </li>
           </ul>
@@ -98,6 +103,22 @@ const Footer = () => {
             <button className="px-4 py-2 bg-blue-500 text-[#02254f] font-semibold rounded-r-md hover:bg-blue-700 transition-colors">
               Subscribe
             </button>
+          </div>
+          <div className="flex flex-row w-full h-40 gap-2 p-4 mt-4 bg-white rounded-xl">
+            <div className="flex flex-row items-center justify-center w-1/2 h-full">
+              <img
+                src={kominfo}
+                alt="kominfo"
+                className="object-contain w-1/2 h-1/2"
+              />
+            </div>
+            <div className="h-full w-fit">
+              <img
+                src={apjii}
+                alt="apjii"
+                className="object-contain w-full h-full"
+              />
+            </div>
           </div>
         </div>
       </div>
