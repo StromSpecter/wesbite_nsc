@@ -8,6 +8,9 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import file CSS AOS
 import PersonalDataProtection from "./pages/company/PersonalDataProtection";
+import About from "./pages/company/About";
+import Contact from "./pages/company/Contact";
+import Product from "./pages/company/Product";
 
 const App = () => {
   useEffect(() => {
@@ -22,6 +25,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<CompanyLayout />}>
           <Route index element={<Home />} />
+          <Route path="/about-us" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/product" element={<Product />} />
           <Route
             path="/personal-data-protection"
             element={<PersonalDataProtection />}
@@ -29,9 +35,7 @@ const App = () => {
           <Route path="/*" element={<NotFound />} />
         </Route>
 
-        <Route path="/dashboard" element={<CMSLayout />}>
-          <Route index element={<Home />} />
-        </Route>
+        <Route path="/dashboard" element={<CMSLayout />}></Route>
       </Routes>
     </div>
   );

@@ -45,23 +45,23 @@ export const navbarItems = [
   {
     id: 2,
     name: "About",
-    path: "/about",
+    path: "/about-us",
   },
   {
     id: 3,
     name: "Product",
     path: "/product",
   },
-  {
-    id: 4,
-    name: "Career",
-    path: "/career",
-  },
-  {
-    id: 5,
-    name: "News",
-    path: "/news",
-  },
+  // {
+  //   id: 4,
+  //   name: "Career",
+  //   path: "/career",
+  // },
+  // {
+  //   id: 5,
+  //   name: "News",
+  //   path: "/news",
+  // },
   {
     id: 6,
     name: "Contact",
